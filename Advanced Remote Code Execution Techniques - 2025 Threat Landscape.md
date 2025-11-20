@@ -1,3 +1,4 @@
+> [!WARNING]
 > **DISCLAIMER**  
 > This report is intended exclusively for authorized penetration testing, red team operations, vulnerability research, and defensive security improvement in isolated laboratory environments. All code samples are reconstructed from public disclosures, CISA KEV entries, OWASP GenAI 2025 risks, and open-source PoCs as of November 20, 2025. Use against systems without explicit written permission is illegal. No responsibility is accepted for misuse. All PoCs have been excessively annotated with line-by-line comments for educational clarity, explaining mechanics, evasion tactics, and real-world applicability.
 
