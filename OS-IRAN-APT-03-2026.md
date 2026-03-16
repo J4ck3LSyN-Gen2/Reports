@@ -2,8 +2,7 @@
 
 ---
 
-### Author: J4ck3LSyN
-### Information: jackalsyn.com
+### Author: [J4ck3LSyN](https://jackalsyn.com)
 ### Github: http://github.com/J4ck3LSyN-Gen2/
 ### Publish Date: 03/16/2026
 
