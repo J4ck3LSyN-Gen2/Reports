@@ -208,14 +208,36 @@ Review and harden your CI/CD infrastructure immediately. These techniques compou
 
 ## Sources
 
-- National Vulnerability Database (NVD) entries for CVE-2026-43284, CVE-2026-43500, CVE-2026-46300, CVE-2026-27941, CVE-2026-31976 and related supply chain identifiers
-- GitHub Security Advisory and Blog updates on the May 2026 internal repository incident
-- Pwn2Own Berlin 2026 official results and Zero Day Initiative disclosures
-- Kernel.org patch announcements and Linux distribution security advisories (Red Hat, Ubuntu, Debian)
-- Public exploit research repositories and workshops on eBPF tracing for supply chain threats
-- StepSecurity, JFrog, and ReversingLabs analyses of the Mini Shai-Hulud / TeamPCP campaign
-- Official npm and GitHub documentation on workflow security best practices
-- Community bpftrace and Falco rule examples for runtime detection
+* **National Vulnerability Database (NVD) entries:**
+  - CVE-2026-43284: https://nvd.nist.gov/vuln/detail/CVE-2026-43284
+  - CVE-2026-43500: Related details via https://nvd.nist.gov (pending full publication)
+  - CVE-2026-46300: Fragnesia variant tracking
+  - CVE-2026-27941 and CVE-2026-31976: Workflow poisoning patterns (search NVD for supply chain entries)
+* **GitHub Security Advisory and Blog updates on the May 2026 internal repository incident:**
+  - https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/
+  - https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html
+* **Pwn2Own Berlin 2026 official results and Zero Day Initiative disclosures:**
+  - https://www.thezdi.com/blog/2026/5/13/pwn2own-berlin-2026-day-one-results
+  - https://www.thezdi.com/blog/2026/5/16/pwn2own-berlin-2026-day-three-results-and-master-of-pwn
+* **Kernel.org patch announcements and Linux distribution security advisories (Red Hat, Ubuntu, Debian):**
+  - https://almalinux.org/blog/2026-05-07-dirty-frag/
+  - https://ubuntu.com/blog/dirty-frag-linux-vulnerability-fixes-available
+  - https://access.redhat.com/security/cve/cve-2026-43284
+* **Public exploit research repositories and workshops on eBPF tracing for supply chain threats (including v12-security/pocs):**
+  - https://github.com/v12-security/pocs (practical PoCs for runtime tracing and supply chain anomaly detection)
+  - https://hasgeek.com/rootconf/ebpf-for-supply-chain-attacks-workshop-may-2025/ (eBPF workshop materials)
+* **StepSecurity, JFrog, and ReversingLabs analyses of the Mini Shai-Hulud / TeamPCP campaign:**
+  - https://www.stepsecurity.io/blog/xygeni-action-compromised-c2-reverse-shell-backdoor-injected-via-tag-poisoning
+  - https://www.helpnetsecurity.com/2026/05/20/github-breached-teampcp/
+  - https://www.tenable.com/blog/mini-shai-hulud-frequently-asked-questions
+* **Official npm and GitHub documentation on workflow security best practices:**
+  - https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions
+  - https://openssf.org/blog/2024/08/12/mitigating-attack-vectors-in-github-workflows/
+* **Community bpftrace and Falco rule examples for runtime detection:**
+  - Falco: https://falco.org/
+* **Additional eBPF resources:** 
+  - https://github.com/aquasecurity/tracee
+
 
 **Index (Quick Reference)**
 
