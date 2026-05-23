@@ -238,14 +238,3 @@ Review and harden your CI/CD infrastructure immediately. These techniques compou
 * **Additional eBPF resources:** 
   - https://github.com/aquasecurity/tracee
 
-
-**Index (Quick Reference)**
-
-- Dirty Frag PoC: Section 1, CVE-2026-43284
-- Fragnesia Bypass: Section 1, CVE-2026-46300
-- pull_request_target Example: Section 3, CVE-2026-27941
-- Tag Poisoning: Section 3, CVE-2026-31976 pattern
-- Cache Poisoning: Section 3
-- GitHub Repo Propagation: Section 2
-- eBPF bpftrace Rules: Section 5
-- Shai-Hulud IOCs: Section 5
