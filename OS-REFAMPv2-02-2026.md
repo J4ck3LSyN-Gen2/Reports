@@ -1,6 +1,6 @@
 # Offensive Security Report: Reflection Amplification DDoS and Mirai-Family Botnet C2 Evasion Techniques
 
-**Report ID:** OS-2026-0224-REFAMP-v2
+**Report ID:** OS-REFAMPv2-02-2026
 **Classification:** Internal Red Team Training – Laboratory Use Only  
 **Date:** 24 February 2026  
 **Author:** J4ck3LSyN
