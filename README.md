@@ -144,5 +144,5 @@ The techniques described—including kernel-level exploitation, workflow poisoni
 
 **Author:** J4ck3LSyN
 **Github:** https://github.com/J4ck3LSyN-Gen2/  
-**X**: https://twitter.com/J4ck3LSyN 
-**Assistance:** A.T.L.A.S (Advanced.Transmit.Logic.Analysis.Systems)
+**X**: https://twitter.com/J4ck3LSyN  
+**Assistance:** A.T.L.A.S (Advanced.Transmit.Logic.Analysis.Systems)  
