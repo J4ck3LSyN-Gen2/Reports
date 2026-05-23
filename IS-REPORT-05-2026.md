@@ -3,6 +3,7 @@
 **Report Date:** May 23, 2026  
 **Prepared for:** Information Security  
 **Scope:** Technical breakdown of May incidents with working examples, PoCs where available, detection and mitigation steps.
+**Author:** J4ck3LSyN - A.T.L.A.S Generated Report  
 
 ## Table of Contents
 
