@@ -3,7 +3,7 @@
 **Report Date:** May 23, 2026  
 **Prepared for:** Information Security  
 **Scope:** Technical breakdown of May incidents with working examples, PoCs where available, detection and mitigation steps.  
-**Author:** J4ck3LSyN - A.T.L.A.S Generated Report  
+**Author:** J4ck3LSyN - _A.T.L.A.S_ Generated Report  
 
 ## Table of Contents
 
@@ -217,7 +217,7 @@ Review and harden your CI/CD infrastructure immediately. These techniques compou
 - Official npm and GitHub documentation on workflow security best practices
 - Community bpftrace and Falco rule examples for runtime detection
 
-**Working Index (Quick Reference)**
+**Index (Quick Reference)**
 
 - Dirty Frag PoC: Section 1, CVE-2026-43284
 - Fragnesia Bypass: Section 1, CVE-2026-46300
