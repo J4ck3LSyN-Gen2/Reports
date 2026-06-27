@@ -6,7 +6,7 @@
 
 **Author:** _J4ck3LSyN_  
 **Atlas Assistance** vrs2.9  
-**Date:** _06-27-2026  
+**Date:** _06-27-2026_  
 **Report:** OS-IS-DIRTYSPLOITS-06-2026.md  
 **Source Repo:** https://github.com/rafaeldtinoco/security
 
