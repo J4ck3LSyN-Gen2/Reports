@@ -17,7 +17,7 @@ Reports are categorized using the following prefix system:
 
 | File | Type | Description |
 | :--- | :--- | :--- |
-| OS-IS-EXPLOITARIUM-RESEARCH-06-2026.md | OS/IS | **Exploitarium Research:** Analysis of `Exploitarium` 0-day exploits. Source: `https://github.com/bikini/exploitarium` |
+| OS-IS-EXPLOITARIUM-RESEARCH-06-2026.md(.yar) | OS/IS | **Exploitarium Research:** Analysis of `Exploitarium` 0-day exploits. Source: `https://github.com/bikini/exploitarium` |
 | IS-LS-Q1-Q2-05-2026.md | LS/IS | **2026 Mid-Year Landscape:** Analysis of Agentic AI, npm supply chain attacks (Axios/TanStack), and the Canvas LMS breach. |
 | IS-REPORT-05-2026.md | IS | **Supply Chain & Workflow Poisoning:** Deep dive into TeamPCP, GitHub internal breaches, and Linux "Dirty Frag" vulnerabilities. |
 | IS-IRAN-APT-03-2026.md | IS | **Iranian Cyber Update:** Coverage of the Stryker Corporation attack and the KadNap P2P botnet. |
