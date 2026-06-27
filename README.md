@@ -17,6 +17,7 @@ Reports are categorized using the following prefix system:
 
 | File | Type | Description |
 | :--- | :--- | :--- |
+| OS-IS-DIRTYSPLOITS-06-2026.md | OS/IS | **Linux Dirty* Exploits** Analysis of recent DirtyClone, DirtyFrag, Fragnesia, pedit-cow, PinTheft, CopyFail, dirtycbc, ssh-keysign-pwn, nft-catchall-uaf and pintheft(non uring_io) |
 | OS-IS-EXPLOITARIUM-RESEARCH-06-2026.md(.yar) | OS/IS | **Exploitarium Research:** Analysis of `Exploitarium` 0-day exploits. Source: `https://github.com/bikini/exploitarium` |
 | IS-LS-Q1-Q2-05-2026.md | LS/IS | **2026 Mid-Year Landscape:** Analysis of Agentic AI, npm supply chain attacks (Axios/TanStack), and the Canvas LMS breach. |
 | IS-REPORT-05-2026.md | IS | **Supply Chain & Workflow Poisoning:** Deep dive into TeamPCP, GitHub internal breaches, and Linux "Dirty Frag" vulnerabilities. |
@@ -74,6 +75,9 @@ The following table summarizes all vulnerabilities discussed across the research
 | CVE ID | Affected System / Product | Vulnerability Type / Description | Source Report |
 | :--- | :--- | :--- | :--- |
 | **2026** | | | |
+| CVE-2026-46331 | act_pedit | Race condition in `net/sched` `act_pedit` partial copy-on-write page-cache write. | OS-IS-DIRTYSPLOITS-06-2026.md |
+| CVE-2026-23111 | nf_tables | Use-after-free in the `nf_tables` subsystem due to missing reactivation on the netlink abort path. | OS-IS-DIRTYSPLOITS-06-2026.md |
+| CVE-2026-43503 | Linux Kernal | Linux kernel local privilege escalation via insufficient flag propagation in __pskb_copy_fclone() when cloning socket buffers carrying spliced, file-backed page-cache fragments. | OS-IS-DIRTYSPLOITS-06-2026.md |
 | CVE-2026-55200 | libssh2 <= 1.11.1 | Buffer Overflow via unchecked packet_length field in SSH2 packet parsing leading to RCE | OS-IS-EXPLOITARIUM-RESEARCH-06-2026.md |
 | CVE-2026-45115 | MyBB <= 1.8.40 | Priv-Esc via insufficient permissions checks in the Admin Control Panel's user-management module | OS-IS-EXPLOITARIUM-RESEARCH-06-2026.md |
 | CVE-2026-46300 | Linux Kernel | Fragnesia: XFRM ESP-in-TCP reassembly bypass | IS-REPORT-05-2026 |
@@ -121,6 +125,7 @@ The following table summarizes all vulnerabilities discussed across the research
 | CVE-2023-31083 | Linux Kernel | snd-rawmidi Use-after-free | OS-IS-BYOVD-11-2025 |
 | CVE-2023-28252 | Windows CLFS | Privilege Escalation (BYOVD chain) | OS-IS-BYOVD-11-2025 |
 | **Pre-2023** | | | |
+| CVE-2022-0847 | Linux Kernal | **DirtyFrag(Variant)** Linux kernel page-cache write vulnerability in the IPsec ESP input processing path. | OS-IS-DIRTYSPLOITS-06-2026.md |
 | CVE-2022-1388 | F5 BIG-IP | iControl REST Authentication Bypass | IS-IRAN-0119-2025 |
 | CVE-2021-44228 | Log4j2 | Log4Shell RCE | IS-IRAN-0119-2025 |
 | CVE-2021-21551 | Dell dbutil_2_3.sys | Memory corruption in IOCTL (BYOVD) | OS-IS-BYOVD-11-2025 |
