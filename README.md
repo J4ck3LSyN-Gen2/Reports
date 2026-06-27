@@ -74,6 +74,8 @@ The following table summarizes all vulnerabilities discussed across the research
 | CVE ID | Affected System / Product | Vulnerability Type / Description | Source Report |
 | :--- | :--- | :--- | :--- |
 | **2026** | | | |
+| CVE-2026-55200 | libssh2 <= 1.11.1 | Buffer Overflow via unchecked packet_length field in SSH2 packet parsing leading to RCE | OS-IS-EXPLOITARIUM-RESEARCH-06-2026.md |
+| CVE-2026-45115 | MyBB <= 1.8.40 | Priv-Esc via insufficient permissions checks in the Admin Control Panel's user-management module | OS-IS-EXPLOITARIUM-RESEARCH-06-2026.md |
 | CVE-2026-46300 | Linux Kernel | Fragnesia: XFRM ESP-in-TCP reassembly bypass | IS-REPORT-05-2026 |
 | CVE-2026-43500 | Linux Kernel | Dirty Frag: rxrpc fragment heap corruption | IS-REPORT-05-2026 |
 | CVE-2026-43284 | Linux Kernel | Dirty Frag: IPsec ESP (esp4/esp6) heap corruption | IS-REPORT-05-2026 |
