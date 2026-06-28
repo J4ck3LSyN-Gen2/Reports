@@ -7,7 +7,7 @@
 **Author:** _J4ck3LSyN_  
 **Atlas Assistance** vrs2.9  
 **Date:** _06-28-2026_  
-__Note: 06-28 is the _publish_ date, the test was conducted in steps over time Feb to June 2026__   
+__Note:__ 06-28 is the _publish_ date, the test was conducted in steps over time Feb to June 2026    
 **Report:** OS-IS-CHAOS-OP-06-2026.md  
 **Scope:** chaosfoundry.digital (non-disruptive)  
 >
