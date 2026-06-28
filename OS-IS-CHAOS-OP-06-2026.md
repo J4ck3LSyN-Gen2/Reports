@@ -1,6 +1,6 @@
 > [!WARNING]
 > **Legal Disclaimer**
-> The information contained in this report is for academic, research, and defensive security purposes only. The techniques, tools, and code described herein can cause significant damage if used maliciously. The author and publisher assume no liability for any misuse or damage caused by the information in this document. Unauthorized access to computer systems is illegal. Always obtain explicit, written permission from the system owner before conducting any security testing.
+> The information contained in this report is for academic, research, and defensive security purposes only. The techniques, tools, and code described herein can cause significant damage if used maliciously. The author and publisher assume no liability for any misuse or damage caused by the information in this document. Unauthorized access to computer systems is illegal. Always obtain explicit, written permission from the system owner before conducting any security testing. All scripts used for testing inside of this report will NOT be submitted along side it.
 >
 ---
 >
