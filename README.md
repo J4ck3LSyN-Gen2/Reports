@@ -17,6 +17,7 @@ Reports are categorized using the following prefix system:
 
 | File | Type | Description |
 | :--- | :--- | :--- |
+| OS-IS-CHAOS-OP-06-2026.md | OS/IS | **Engagement Report** Details the offensive security operations conducted against the Supabase Edge Functions associated with the chaosfoundry.digital infrastructure | 
 | OS-IS-DIRTYSPLOITS-06-2026.md | OS/IS | **A Mix of Linux Exploits** Analysis of recent DirtyClone, DirtyFrag, Fragnesia, pedit-cow, PinTheft, CopyFail, dirtycbc, ssh-keysign-pwn, nft-catchall-uaf and pintheft(non uring_io) |
 | OS-IS-EXPLOITARIUM-RESEARCH-06-2026.md(.yar) | OS/IS | **Exploitarium Research:** Analysis of `Exploitarium` 0-day exploits. Source: `https://github.com/bikini/exploitarium` |
 | IS-LS-Q1-Q2-05-2026.md | LS/IS | **2026 Mid-Year Landscape:** Analysis of Agentic AI, npm supply chain attacks (Axios/TanStack), and the Canvas LMS breach. |
