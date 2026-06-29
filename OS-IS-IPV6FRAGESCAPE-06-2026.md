@@ -150,7 +150,7 @@ The bug resides in the IPv6 fragmentation output path (`net/ipv6/output_core.c::
 ## 5. References & Credits  
 
 ### 5.1 Primary Sources  
-- **ipv6_frag_escape PoC** – `/root/projects/resources/third_party_repos/ipv6_frag_escape/`  
+- **ipv6_frag_escape PoC** – `.../ipv6_frag_escape/`  
   - `IPV6_FRAG_ESCAPE.c` – main exploit  
   - `README.md` – detailed exploitation chain and prerequisites  
   - Supporting files: `kallsysms.c`, `pagemap.c`, `pagemap.h`  
