@@ -17,6 +17,7 @@ Reports are categorized using the following prefix system:
 
 | File | Type | Description |
 | :--- | :--- | :--- |
+| OS-IS-CVE-2026-6307-07-2026.md | OS/IS | **V8 Security (Longinus) Report** Analysis of CVE-2026-6307, nicknamed "Longinus," a critical vulnerability in V8's TurboFan compiler affecting JavaScript-to-WebAssembly call inlining and FrameState merging. |
 | OS-IS-IPV6FRAGESCAPE-06-2026.md | OS/IS | **ipv6 LPE** Analysis the ipv6_frag_escape proof‑of‑concept (PoC) exploit released in June 2026 |
 | OS-IS-CHAOS-OP-06-2026.md | OS/IS | **Engagement Report** Details the offensive security operations conducted against the Supabase Edge Functions associated with the chaosfoundry.digital infrastructure | 
 | OS-IS-DIRTYSPLOITS-06-2026.md | OS/IS | **A Mix of Linux Exploits** Analysis of recent DirtyClone, DirtyFrag, Fragnesia, pedit-cow, PinTheft, CopyFail, dirtycbc, ssh-keysign-pwn, nft-catchall-uaf and pintheft(non uring_io) |
